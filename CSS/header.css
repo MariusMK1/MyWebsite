@@ -1,0 +1,53 @@
+header{
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+nav {
+    background-color: black;
+    width: 100%;
+    padding: 1em 0em;
+    height: 3em;
+}
+header > h1 > a {
+    text-decoration: none;
+    color: black;
+}
+header > h1 {
+    padding: 0em;
+    margin: 0em;
+    text-align: center;
+    font-family: 'Allan';
+    font-size: 5em;
+    font-style: italic;
+}
+/*  */
+#hamburger {
+    background-color: black;
+    margin-top: 2em;
+    position: absolute;
+    top: 1em;
+    display: none;
+}   
+.icon {
+    color: white;
+    padding: 1em;
+    height: 3em;
+    width: 3em;
+}
+.dropDown {
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+#menu {
+    position: absolute;
+    top: 1em;
+    left: 4em;
+}
+.genre {
+    color: white;
+    text-decoration: none;
+    padding: 0em 0.5em;
+    margin: 0em;
+}
