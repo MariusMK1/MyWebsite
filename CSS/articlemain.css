@@ -1,0 +1,15 @@
+main {
+    width: 80%;
+    position: relative;
+    left: 10%;  
+}
+h2 {
+    font-size: 3em;
+    text-align: center;
+    padding: 0.5em 0em;
+    margin: 0em;
+    font-style: italic;
+}
+main > p {
+    text-align: justify;
+}

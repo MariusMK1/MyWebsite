@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/body.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/indexmain.css">
+    <link rel="stylesheet" href="CSS/catalogmain.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
     <title>The M.K. News</title>
@@ -17,7 +17,7 @@
         }
     </style>
 </head>
-<body onload="myFunction2()">
+<body onload="myFunction2()" onresize="myFunction3()">
     <header id="header">
         <nav>
             <div id="topnav">
@@ -42,25 +42,24 @@
         <h1  class="font-effect-shadow-multiple"><a href="index.htm" >The M.K. News</a></h1>
     </header>
     <main id="main">
-        <div class="article">
-            <a href="caraccident.htm"><img src="photos/car.jpg" alt="caraccident"> A car accident on central street happend today!!!</a>
+        <div>
+            <h2>Catalog</h2>
         </div>
-        <div class="article">
-            <a href="pyramids.htm"><img src="photos/pyramid.jpg" alt="pyramid"> The pyramids are still standing 4500 years latter</a>
+        <div id="catalog">
+            <img src="photos/pyramid.jpg" alt="pyramid" class="photos">
+            <img src="photos/laptop.jpg" alt="laptop" class="photos">
+            <img src="photos/pica.jpg" alt="pica" class="photos">
+            <img src="photos/giftpaper.jpg" alt="giftpaper" class="photos">
+            <img src="photos/city.jpg" alt="city" class="photos">
+            <img src="photos/car.jpg" alt="car" class="photos">
+            <img src="photos/beach.jpg" alt="beach" class="photos">
+            <img src="photos/kitchen.jpg" alt="kitchen" class="photos">
+            <img src="photos/bread.jpg" alt="bread" class="photos">
+            <img src="photos/dog.jpg" alt="dog" class="photos">
+            <img src="photos/xmas.jpg" alt="xmas" class="photos">
+            <img src="photos/nature.jpg" alt="nature" class="photos">
         </div>
-        <div class="article">
-            <a href="dog.htm"><img src="photos/dog.jpg" alt="dog"> Meet chuck the cutest dog in the whole world </a>
-        </div>
-        <div class="article">
-            <a href="pica.htm"><img src="photos/pica.jpg" alt="pica">Napols pizza is geting better and better every day!!!</a>
-        </div>
-        <div class="article">
-            <a href="city.htm"><img src="photos/city.jpg" alt="city"> Tokyo is the largest city by populaiton in the wolrd</a>
-        </div>
-        <div class="article">
-            <a href="bread.htm"><img src="photos/bread.jpg" alt="bread"> This loaf of bread gave everyone food poisoning???</a>
-        </div>
-
+        
     </main>
     <footer id="footer">
         <div>

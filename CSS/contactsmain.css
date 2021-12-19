@@ -1,0 +1,32 @@
+main {
+    width: 80%;
+    position: relative;
+    left: 10%;  
+}
+h2 {
+    font-size: 3em;
+    text-align: center;
+    padding: 0.5em 0em;
+    margin: 0em;
+    font-style: italic;
+}
+#info {
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    top: 7em;
+}
+#info p:first-child {
+    font-weight: bold;
+}
+#map {
+    width: 50%;
+    position: absolute;
+    right: 0%;
+    top: 7em;
+}
+iframe {
+    width: 100%;
+    height: auto;
+    
+}
